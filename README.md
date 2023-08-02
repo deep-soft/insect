@@ -3,7 +3,7 @@
     --- IMPORTANT --- IMPORTANT --- IMPORTANT ---
 
      Do not edit this README file directly. Edit
-     the documents in the `docs` folder instead.
+     the files in the `docs` folder instead.
 
     --- IMPORTANT --- IMPORTANT --- IMPORTANT ---
 
@@ -11,7 +11,7 @@
 
 ![insect](web/media/insect.png "insect - scientific calculator")
 
-A high precision scientific calculator with full support for physical units.
+A high-precision scientific calculator with full support for physical units.
 
 **Try the web version here**: https://insect.sh
 
@@ -190,35 +190,35 @@ Contents
 
 - Supported units (remember that you can use tab completion).
 
-  All SI-accepted units support metric prefixes. In addition, [binary
+  All SI-accepted units support metric prefixes and [binary
   prefixes](https://en.wikipedia.org/wiki/Binary_prefix) (`MiB`, `GiB`,
-  ...) are also supported.
+  ...).
 
   | Unit                                                                         | Syntax                                                                      |
   |------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
   | [Ampere](https://en.wikipedia.org/wiki/Ampere)                               | `amperes`, `ampere`, `A`                                                    |
-  | [Ångström](https://en.wikipedia.org/wiki/Ångström)                           | `angstrom`, `Å`                                                             |
+  | [Ångström](https://en.wikipedia.org/wiki/Ångström)                           | `angstroms`, `angstrom`, `Å`                                                |
   | [Astronomical unit](https://en.wikipedia.org/wiki/Astronomical_unit)         | `AU`, `au`, `astronomicalunits`, `astronomicalunit`                         |
   | [Atmosphere](https://en.wikipedia.org/wiki/Atmosphere_(unit))                | `atm`                                                                       |
-  | [Bar](https://en.wikipedia.org/wiki/Bar_(unit))                              | `bar`                                                                       |
-  | [Barn](https://en.wikipedia.org/wiki/Barn_(unit))                            | `barn`                                                                      |
-  | [Becquerel](https://en.wikipedia.org/wiki/Becquerel)                         | `becquerel`, `Bq`                                                           |
-  | [Bel](https://en.wikipedia.org/wiki/Decibel)                                 | `bel`                                                                       |
+  | [Bar](https://en.wikipedia.org/wiki/Bar_(unit))                              | `bars`, `bar`                                                               |
+  | [Barn](https://en.wikipedia.org/wiki/Barn_(unit))                            | `barns`, `barn`                                                             |
+  | [Becquerel](https://en.wikipedia.org/wiki/Becquerel)                         | `becquerels`, `becquerel`, `Bq`                                             |
+  | [Bel](https://en.wikipedia.org/wiki/Decibel)                                 | `bels`, `bel`                                                               |
   | [Bit](https://en.wikipedia.org/wiki/Bit)                                     | `bits`, `bit`                                                               |
   | [Bits per second](https://en.wikipedia.org/wiki/Data_rate_units)             | `bps`                                                                       |
   | [British thermal unit](https://en.wikipedia.org/wiki/British_thermal_unit)   | `BTU`                                                                       |
   | [Byte](https://en.wikipedia.org/wiki/Byte)                                   | `Bytes`, `bytes`, `Byte`, `byte`, `B`, `Octets`, `octets`, `Octet`, `octet` |
   | [Calorie](https://en.wikipedia.org/wiki/Calorie)                             | `calories`, `calorie`, `cal`                                                |
-  | [Candela](https://en.wikipedia.org/wiki/Candela)                             | `candela`, `cd`                                                             |
-  | [Coulomb](https://en.wikipedia.org/wiki/Coulomb)                             | `coulomb`, `C`                                                              |
+  | [Candela](https://en.wikipedia.org/wiki/Candela)                             | `candelas`, `candela`, `cd`                                                 |
+  | [Coulomb](https://en.wikipedia.org/wiki/Coulomb)                             | `coulombs`, `coulomb`, `C`                                                  |
   | [Cup](https://en.wikipedia.org/wiki/Cup_(unit))                              | `cups`, `cup`                                                               |
   | [DPI](https://en.wikipedia.org/wiki/Dots_per_inch)                           | `dpi`                                                                       |
   | [Day](https://en.wikipedia.org/wiki/Day)                                     | `days`, `day`, `d`                                                          |
   | [Degree](https://en.wikipedia.org/wiki/Degree_(angle))                       | `degrees`, `degree`, `deg`, `°`                                             |
   | [Dot](https://en.wikipedia.org/wiki/Dots_per_inch)                           | `dots`, `dot`                                                               |
-  | [Electronvolt](https://en.wikipedia.org/wiki/Electronvolt)                   | `electronvolt`, `eV`                                                        |
+  | [Electronvolt](https://en.wikipedia.org/wiki/Electronvolt)                   | `electronvolts`, `electronvolt`, `eV`                                       |
   | [Euro](https://en.wikipedia.org/wiki/Euro)                                   | `euros`, `euro`, `EUR`, `€`                                                 |
-  | [Farad](https://en.wikipedia.org/wiki/Farad)                                 | `farad`, `F`                                                                |
+  | [Farad](https://en.wikipedia.org/wiki/Farad)                                 | `farads`, `farad`, `F`                                                      |
   | [Fluid ounce](https://en.wikipedia.org/wiki/Fluid_ounce)                     | `fluidounces`, `fluidounce`, `floz`                                         |
   | [Foot](https://en.wikipedia.org/wiki/Foot_(unit))                            | `feet`, `foot`, `ft`                                                        |
   | [Fortnight](https://en.wikipedia.org/wiki/Fortnight)                         | `fortnights`, `fortnight`                                                   |
@@ -228,28 +228,32 @@ Contents
   | [Gallon](https://en.wikipedia.org/wiki/Gallon)                               | `gallons`, `gallon`, `gal`                                                  |
   | [Gauss](https://en.wikipedia.org/wiki/Gauss_(unit))                          | `gauss`                                                                     |
   | [Gram](https://en.wikipedia.org/wiki/Gram)                                   | `grams`, `gram`, `grammes`, `gramme`, `g`                                   |
-  | [Gray](https://en.wikipedia.org/wiki/Gray_(unit))                            | `gray`, `Gy`                                                                |
-  | [Hectare](https://en.wikipedia.org/wiki/Hectare)                             | `hectare`, `ha`                                                             |
+  | [Gray](https://en.wikipedia.org/wiki/Gray_(unit))                            | `grays`, `gray`, `Gy`                                                       |
+  | [Hectare](https://en.wikipedia.org/wiki/Hectare)                             | `hectares`, `hectare`, `ha`                                                 |
   | [Henry](https://en.wikipedia.org/wiki/Henry_(unit))                          | `henrys`, `henries`, `henry`, `H`                                           |
   | [Hertz](https://en.wikipedia.org/wiki/Hertz)                                 | `hertz`, `Hz`                                                               |
   | [Hogshead](https://en.wikipedia.org/wiki/Hogshead)                           | `hogsheads`, `hogshead`                                                     |
   | [Hour](https://en.wikipedia.org/wiki/Hour)                                   | `hours`, `hour`, `hr`, `h`                                                  |
   | [Inch](https://en.wikipedia.org/wiki/Inch)                                   | `inches`, `inch`, `in`                                                      |
   | [Joule](https://en.wikipedia.org/wiki/Joule)                                 | `joules`, `joule`, `J`                                                      |
-  | [Katal](https://en.wikipedia.org/wiki/Katal)                                 | `katal`, `kat`                                                              |
-  | [Kelvin](https://en.wikipedia.org/wiki/Kelvin)                               | `kelvin`, `K`                                                               |
+  | [Katal](https://en.wikipedia.org/wiki/Katal)                                 | `katals`, `katal`, `kat`                                                    |
+  | [Knot](https://en.wikipedia.org/wiki/Knot_(unit))                            | `knots`, `knot`, `kn`, `kt`                                                 |
+  | [Kelvin](https://en.wikipedia.org/wiki/Kelvin)                               | `kelvins`, `kelvin`, `K`                                                    |
   | [Light-year](https://en.wikipedia.org/wiki/Light-year)                       | `lightyears`, `lightyear`, `ly`                                             |
   | [Liter](https://en.wikipedia.org/wiki/Liter)                                 | `liters`, `liter`, `litres`, `litre`, `L`, `l`                              |
-  | [Lumen](https://en.wikipedia.org/wiki/Lumen_(unit))                          | `lumen`, `lm`                                                               |
+  | [Lumen](https://en.wikipedia.org/wiki/Lumen_(unit))                          | `lumens`, `lumen`, `lm`                                                     |
   | [Lux](https://en.wikipedia.org/wiki/Lux)                                     | `lux`, `lx`                                                                 |
   | [Meter](https://en.wikipedia.org/wiki/Meter)                                 | `meters`, `meter`, `metres`, `metre`, `m`                                   |
   | [Mile](https://en.wikipedia.org/wiki/Mile)                                   | `miles`, `mile`                                                             |
   | [Miles per hour](https://en.wikipedia.org/wiki/Miles_per_hour)               | `mph`                                                                       |
   | [Millimeter of mercury](https://en.wikipedia.org/wiki/Millimeter_of_mercury) | `mmHg`                                                                      |
   | [Minute](https://en.wikipedia.org/wiki/Minute)                               | `minutes`, `minute`, `min`                                                  |
-  | [Mole](https://en.wikipedia.org/wiki/Mole_(unit))                            | `mole`, `mol`                                                               |
+  | [Molal](https://en.wikipedia.org/wiki/Molality#Unit)                         | `molals`, `molal`                                                           |
+  | [Molar](https://en.wikipedia.org/wiki/Molar_concentration#Units)             | `molars`, `molar`                                                           |
+  | [Mole](https://en.wikipedia.org/wiki/Mole_(unit))                            | `moles`, `mole`, `mol`                                                      |
   | [Month](https://en.wikipedia.org/wiki/Month)                                 | `months`, `month`                                                           |
-  | [Newton](https://en.wikipedia.org/wiki/Newton_(unit))                        | `newton`, `N`                                                               |
+  | [Nautical mile](https://en.wikipedia.org/wiki/Nautical_mile)                 | `M`, `NM`, `nmi`                                                            |
+  | [Newton](https://en.wikipedia.org/wiki/Newton_(unit))                        | `newtons`, `newton`, `N`                                                    |
   | [Ohm](https://en.wikipedia.org/wiki/Ohm)                                     | `ohms`, `ohm`, `Ω`                                                          |
   | [Ounce](https://en.wikipedia.org/wiki/Ounce)                                 | `ounces`, `ounce`, `oz`                                                     |
   | [PPI](https://en.wikipedia.org/wiki/Pixels_per_inch)                         | `ppi`                                                                       |
@@ -258,7 +262,7 @@ Contents
   | [Parts-per-billion](https://en.wikipedia.org/wiki/Parts-per_notation)        | `ppb`                                                                       |
   | [Parts-per-trillion](https://en.wikipedia.org/wiki/Parts-per_notation)       | `ppt`                                                                       |
   | [Parts-per-quadrillion](https://en.wikipedia.org/wiki/Parts-per_notation)    | `ppq`                                                                       |
-  | [Pascal](https://en.wikipedia.org/wiki/Pascal_(unit))                        | `pascal`, `Pa`                                                              |
+  | [Pascal](https://en.wikipedia.org/wiki/Pascal_(unit))                        | `pascals`, `pascal`, `Pa`                                                   |
   | [Percent](https://en.wikipedia.org/wiki/Parts-per_notation)                  | `percent`, `pct`                                                            |
   | [Person](https://en.wiktionary.org/wiki/person)                              | `persons`, `person`, `people`                                               |
   | [Piece](https://en.wiktionary.org/wiki/piece)                                | `pieces`, `piece`                                                           |
@@ -272,17 +276,17 @@ Contents
   | [Rod](https://en.wikipedia.org/wiki/Rod_(unit))                              | `rods`, `rod`                                                               |
   | [Second](https://en.wikipedia.org/wiki/Second)                               | `seconds`, `second`, `sec`, `s`                                             |
   | [Siemens](https://en.wikipedia.org/wiki/Siemens_(unit))                      | `siemens`, `S`                                                              |
-  | [Sievert](https://en.wikipedia.org/wiki/Sievert)                             | `sievert`, `Sv`                                                             |
+  | [Sievert](https://en.wikipedia.org/wiki/Sievert)                             | `sieverts`, `sievert`, `Sv`                                                 |
   | [Tablespoon](https://en.wikipedia.org/wiki/Tablespoon)                       | `tablespoons`, `tablespoon`, `tbsp`                                         |
   | [Teaspoon](https://en.wikipedia.org/wiki/Teaspoon)                           | `teaspoons`, `teaspoon`, `tsp`                                              |
-  | [Tesla](https://en.wikipedia.org/wiki/Tesla_(unit))                          | `tesla`, `T`                                                                |
+  | [Tesla](https://en.wikipedia.org/wiki/Tesla_(unit))                          | `teslas`, `tesla`, `T`                                                      |
   | [Thou](https://en.wikipedia.org/wiki/Thousandth_of_an_inch)                  | `thou`, `mils`, `mil`                                                       |
   | [Tonne](https://en.wikipedia.org/wiki/Tonne)                                 | `tonnes`, `tonne`, `tons`, `ton`, `t`                                       |
   | [US Dollar](https://en.wikipedia.org/wiki/USD)                               | `dollars`, `dollar`, `USD`, `$`                                             |
   | [Volt](https://en.wikipedia.org/wiki/Volt)                                   | `volts`, `volt`, `V`                                                        |
   | [Watt-hour](https://en.wikipedia.org/wiki/Kilowatt_hour)                     | `Wh`                                                                        |
   | [Watt](https://en.wikipedia.org/wiki/Watt)                                   | `watts`, `watt`, `W`                                                        |
-  | [Weber](https://en.wikipedia.org/wiki/Weber_(unit))                          | `weber`, `Wb`                                                               |
+  | [Weber](https://en.wikipedia.org/wiki/Weber_(unit))                          | `webers`, `weber`, `Wb`                                                     |
   | [Week](https://en.wikipedia.org/wiki/Week)                                   | `weeks`, `week`                                                             |
   | [Yard](https://en.wikipedia.org/wiki/Yard)                                   | `yards`, `yard`, `yd`                                                       |
   | [Gregorian year](https://en.wikipedia.org/wiki/Gregorian_year)               | `years`, `year`                                                             |
@@ -292,10 +296,10 @@ Contents
 
 **Reasons to use Insect**
 
-- Insect is **open source**.
+- Insect is **open-source**.
 - There is a [web version](https://Insect.sh/) that requires **no
   installation**.
-- With both browser and terminal versions available, insect is truly
+- With both browser and terminal versions available, Insect is truly
   **cross-platform**.
 - Insect has *first-class* support for **physical units**, including
   metric and binary prefixes. While evaluating your calculation, Insect
@@ -303,16 +307,16 @@ Contents
   the physical quantities.
 - Insect supports an
   [**interactive**](https://en.wikipedia.org/wiki/REPL) style with its
-  readline-based interface. There is a saved history that can be browsed
-  by pressing up- and down keys. The history is also searchable via
-  *Ctrl-R*.
-- The syntax of Insect is rather strict. The parser does not try to be
+  readline-like interface. There is a saved history that can be browsed
+  by pressing the up and down arrow keys. The history is also searchable
+  via *Ctrl-R*.
+- Insect's syntax is rather strict. The parser does not try to be
   "smart" on syntactically incorrect input, so there shouldn't be any
   surprises - and you can trust the result of your calculation. The
   parsed user input is always pretty-printed for a quick double-check.
 - Insect is written in [PureScript](http://www.purescript.org/) and
-  therefore benefits from all the safety-guarantees that a
-  strictly-typed functional programming language gives you.
+  therefore benefits from all the safety guarantees that a strictly
+  typed functional programming language gives you.
 - The source code of
   [purescript-quantities](https://github.com/sharkdp/purescript-quantities)
   (the underlying library for physical units) as well as the code of
@@ -326,31 +330,32 @@ Contents
 - There is no graphical user interface with buttons for each action
   (*x²*, *1/x*, *DEG/RAD*, etc.).
   *[Qalculate!](http://qalculate.github.io/)* is a fantastic tool that
-  supports both text- as well as graphical input.
+  supports both text as well as graphical input.
 - Insect supports a huge range of physical units: all [SI
   units](https://en.wikipedia.org/wiki/International_System_of_Units),
-  all units that are accepted by SI as well as most units of the
+  all non-SI units that are accepted by SI as well as most units of the
   imperial and US customary systems (and many more). However, if you
   need something even more comprehensive, try *[GNU
   units](https://www.gnu.org/software/units/)*.
 - Insect is not a general-purpose programming language. You could try
   *[Frink](https://frinklang.org/)*.
-- Insect does not have a special mode for hexadecimal or binary numbers
-  (yet).
+- Insect does not have a special mode for hexadecimal, octal, or binary
+  numbers (yet), though it does support inputting them.
 
 ## FAQ
 
 - Why are Celsius and Fahrenheit not supported?
 
-  Compared to the SI unit [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
-  and in contrast to all other units, Celsius and Fahrenheit require an
-  additive offset when converting into and from other temperature units.
-  This additive offset leads to all kinds of ambiguities when performing
-  calculations in these units. Adding two temperatures in Celsius, for
-  example, is only meaningful if one of them is seen as an offset value
-  (rather than an absolute temperature). Insect is primarily a
-  scientific calculator (as opposed to a unit conversion tool) and
-  therefore focuses on getting physical calculations right.
+  In contrast to the SI unit of temperature, the
+  [Kelvin](https://en.wikipedia.org/wiki/Kelvin), and to all other
+  units, Celsius and Fahrenheit both require an additive offset when
+  converting into and from other temperature units. This additive offset
+  leads to all kinds of ambiguities when performing calculations in
+  these units. Adding two temperatures in Celsius, for example, is only
+  meaningful if one of them is seen as an offset value (rather than as
+  an absolute temperature). Insect is primarily a scientific calculator
+  (as opposed to a unit conversion tool) and therefore focuses on
+  getting physical calculations right.
 
   Even though *°C* and *°F* are not supported as built-in units, there
   are helper functions to convert to and from Celsius (and Fahrenheit):
@@ -425,63 +430,77 @@ Contents
   As the base unit is the same (`1 / second`), `RPM` can be converted to
   `rad / s`, `deg / s` or `Hz`. Note, however, that `1 RPM` does *not*
   equal `2π rad / min` or `360° / min` or `1 Hz`, as some might expect.
-  If you interested in computing the traversed angle of something that
-  rotates with a given number of revolutions per minute, you need to
-  multiply by `2π rad` or `360 °` because:
+  If you're interested in computing the traversed angle of something
+  that rotates with a given number of revolutions per minute, you need
+  to multiply by `2π rad` or `360°` because:
 
       1 RPM · (360°/revolution) = (1 revolution / minute) · (360° / revolution) = 360° / minute
 
 ## Terminal version
 
-In addition to the web interface, there is also a command line version
-(supporting Node 10 and later) which can by installed via
+In addition to the web interface, there is also a command-line version
+(supporting Node.js 10 and later) which can by installed via
 [npm](https://www.npmjs.com/package/insect):
 
     npm install -g insect
 
-Note that this might fail if you run it with `sudo`. Instead, [set up a
-prefix
+Note that you should almost always never run this as root or with
+`sudo`. If the command fails due to permission issues, [set up a prefix
 directory](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md#install-npm-packages-globally-without-sudo-on-macos-and-linux)
-and call `npm install` as a user.
+and call `npm install` as a user instead.
 
-For Arch Linux, there is a [package on
-AUR](https://aur.archlinux.org/packages/insect/):
+For Arch Linux, there is an [AUR
+package](https://aur.archlinux.org/packages/insect/):
 
     yaourt -S insect
 
 For macOS, there is a [Homebrew
-package](https://formulae.brew.sh/formula/insect):
+formula](https://formulae.brew.sh/formula/insect):
 
     brew install insect
 
 For Android, install [Termux](https://termux.com/) from
 [F-Droid](https://f-droid.org/packages/com.termux/). Install Node.js in
-Termux and then install `insect`.
+Termux and then install `insect` from npm:
 
     pkg install nodejs-lts
     npm install -g insect
 
 ## Development
 
-Insect is written in PureScript (see [Getting
+Insect is written in PureScript (see the [Getting
 Started](https://github.com/purescript/documentation/blob/master/guides/Getting-Started.md)
-guide). You can install all dependencies and build the whole project by
-running:
+guide). First, install all dependencies:
 
     npm install
+
+To start the web version:
+
     npm start
 
-Open [web/index.html](web/index.html) in your browser.
+To build a bundled JavaScript file that you can run from the terminal
+(note that this builds the web version too):
+
+    npm run build
+
+To run the `index.cjs` file which the previous command creates:
+
+    node index.cjs
+    # Or simply on Un*x
+    ./index.cjs
+
+Note that it's not possible to just move this file anywhere and then run
+it there, since it depends on packages in `node_modules`.
 
 Insect comes with a comprehensive set of [unit tests](test/Main.purs).
-You can run them by calling
+To run them:
 
     npm test
 
-Note that Node 12 and above is required to work on/build Insect (despite
-Insect itself requiring only Node 10 or later to run). If you don't have
-or want to install Node 12 or later, you can use the following
-Dockerfile to build or run Insect on Node 18:
+Note that Node.js 12 or above is required to work on/build Insect
+(despite Insect itself requiring only Node.js 10 or later to run). If
+you don't have or want to install Node.js 12 or later, you can use the
+following Dockerfile to build or run Insect on Node.js 18:
 
 ``` Dockerfile
 FROM node:18
@@ -504,8 +523,8 @@ create the container and copy out the build artifacts:
     docker cp 71f0797703e8:/usr/src/insect/index.cjs .
     docker cp -r 71f0797703e8:/usr/src/insect/node_modules .
 
-To directly run insect inside the Docker (paying a heavy startup time
-penalty), you can use
+To directly run Insect inside Docker (paying a heavy startup time
+penalty), you can use:
 
     docker run -it --rm -v ~/.local/share/insect-history:/root/.local/share/insect-history sharkdp/insect:latest
 
