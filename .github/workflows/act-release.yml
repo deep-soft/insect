@@ -1,4 +1,4 @@
-name: CI
+name: act-release
 
 env:
   CICD_INTERMEDIATES_DIR: "_cicd-intermediates"
